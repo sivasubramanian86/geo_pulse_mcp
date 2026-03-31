@@ -1,0 +1,44 @@
+    <title>GeoPulse-MCP | Location Intelligence</title>
+    <meta name="description" content="Production-grade agentic location intelligence system powered by Model Context Protocol and Google ADK.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body class="dark-mode">
+    <div class="glass-container" role="presentation">
+        <header role="banner">
+            <div class="logo">GEOPULSE<span>MCP</span></div>
+            <h1>Strategic Site Intelligence</h1>
+            <p>Predictive spatial analysis powered by Model Context Protocol</p>
+        </header>
+
+        <main id="mainContent" role="main">
+            <section class="input-section" aria-labelledby="inputTitle">
+                <h2 id="inputTitle" class="sr-only">Query Input</h2>
+                <div class="input-group">
+                    <label for="userInput" class="sr-only">Enter 5-digit US ZIP Code</label>
+                    <input type="text" id="userInput" placeholder="Enter ZIP code (e.g. 90210)..." aria-required="true" aria-label="Enter US ZIP Code">
+                    <button id="analyzeBtn" aria-controls="results">Analyze Location</button>
+                </div>
+            </section>
+
+            <section id="loading" class="hidden" role="status" aria-live="polite">
+                <div class="spinner" aria-hidden="true"></div>
+                <p>Consulting GeoPulse Agent & MCP Toolbox...</p>
+            </section>
+
+            <section id="results" class="hidden" aria-labelledby="resultsTitle">
+                <div class="result-card">
+                    <h3 id="resultsTitle">Analysis Report</h3>
+                    <div id="reportContent" aria-relevant="all" aria-atomic="true"></div>
+                </div>
+            </section>
+        </main>
+
+        <footer role="contentinfo">
+          <p>© 2026 GeoPulse Intelligence • Multi-Agent Design</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
