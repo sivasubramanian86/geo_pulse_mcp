@@ -1,3 +1,8 @@
+> [!NOTE]
+> **OFFICIAL PORTFOLIO SHOWCASE BY SIVASUBRAMANIAN**  
+> **Original Author:** [Sivasubramanian](https://github.com/sivasubramanian86)  
+> *This repository is an open portfolio showcase. Unauthorized cloning, re-hosting, or submission to hackathons/competitions under another name is strictly prohibited.*
+
 # 🌍 GeoPulse-MCP: Agentic Location Intelligence
 
 [![Evaluation Status](https://img.shields.io/badge/Evaluation-100%25-brightgreen)](https://github.com/sivasubramanian86/geo_pulse_mcp)
